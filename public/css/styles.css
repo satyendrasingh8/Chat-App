@@ -134,50 +134,58 @@ button:disabled {
 }
 
 /* Message Composition Styles */
+#send-location{
+    
+    margin-left:980px ;
+    width:150px;
+}
 
 .compose {
     display: flex;
     flex-shrink: 0;
     margin-top: 16px;
-    padding: 24px;
+    padding: 4px;
+    margin-bottom: 15px;
 }
 
 .compose form {
     display: flex;
     flex-grow: 1;
-    margin-right: 16px;
+    margin-right: 8px;
 }
 
 .compose input {
-    border: 1px solid #eeeeee;
+    border: 2px solid #eeeeee;
+    font-size: 12px;
     width: 100%;
-    padding: 12px;
-    margin: 0 16px 0 0;
+    padding: 5px;
+    margin: 0 6px 0 0;
     flex-grow: 1;
 }
 
 .compose button {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Chat Sidebar Styles */
 
+
 .room-title {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     background: #2c2f3a;
-    padding: 24px;   
+    padding: 20px;   
 }
 
 .list-title {
     font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 4px;
-    padding: 12px 24px 0 24px;
+    font-size: 15px;
+    margin-bottom: 14px;
+    padding: 12px 12px 8 10px;
 }
 
 .users {
     list-style-type: none;
     font-weight: 300;
-    padding: 12px 24px 0 24px;
+    padding: 12px 12px 8 10px;
 }
