@@ -54,7 +54,7 @@ socket.on('locationMessage', (message) => {
     const html = Mustache.render(locationMessageTemplate, {
         username: message.username,
         url: message.url,
-        createdAt: moment(message.createdAt).format('h:mm a')
+        createdAt: moment(message.createdAt).format('LLL')
     })
     $messages.insertAdjacentHTML('beforeend', html)
     autoscroll()
