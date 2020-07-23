@@ -93,7 +93,7 @@ button:disabled {
     height: 100vh;
     color: white;
     background: #333744;
-    width: 225px;
+    width: 160x;
     overflow-y: scroll
 }
 
@@ -181,7 +181,8 @@ button:disabled {
 }
 
 .users {
+    font-size: 13px;
     list-style-type: none;
     font-weight: 300;
-    padding: 12px 12px 8 10px;
+    padding: 12px 12px 8px 7px;
 }
