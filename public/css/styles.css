@@ -93,7 +93,7 @@ button:disabled {
     height: 100vh;
     color: white;
     background: #333744;
-    width: 160x;
+    width: 155px;
     overflow-y: scroll
 }
 
@@ -170,7 +170,8 @@ button:disabled {
     font-weight: 400;
     font-size: 20px;
     background: #2c2f3a;
-    padding: 20px;   
+    padding:5px;
+    margin-bottom: 24px;   
 }
 
 .list-title {
