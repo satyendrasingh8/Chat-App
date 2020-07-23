@@ -134,11 +134,7 @@ button:disabled {
 }
 
 /* Message Composition Styles */
-#send-location{
-    
-    margin-left:980px ;
-    width:150px;
-}
+
 
 .compose {
     display: flex;
